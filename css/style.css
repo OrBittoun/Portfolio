@@ -13,7 +13,8 @@ body {
 }
 
 .navbar .nav-link:hover {
-  color: #165ed1;
+  color: #0071e3
+;
 }
 
 .box {
@@ -43,7 +44,14 @@ body {
 }
 
 .btn-outline-primary{
-  color: #165ed1;
+  color: #0071e3
+;
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  background-color:#0071e3
+ ;
 }
 
 #home, #about, #skills,#projects, #contant{
@@ -52,5 +60,32 @@ body {
 
 h1.display-1 {
   font-weight: 100 !important;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain; 
+  transition: 0.3 ease;
+}
+
+.logo span {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #1ecf06;
+}
+
+.logo img {
+  display: block;
+}
+.logo span {
+  display: none;
+}
+.logo:hover img {
+  display: none;
+}
+.logo:hover span {
+  display: block;
 }
 
