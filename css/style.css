@@ -54,9 +54,23 @@ body {
  ;
 }
 
-#home, #about, #skills,#projects, #contant{
+#home, #skills{
   scroll-margin-top: 80px;
 }
+
+#about{
+ scroll-margin-top: 140px;  
+}
+
+#projects{
+  scroll-margin-top: 140px; 
+
+}
+#contact{
+scroll-margin-top: 20px; 
+
+}
+  
 
 h1.display-1 {
   font-weight: 100 !important;
@@ -69,8 +83,7 @@ h1.display-1 {
   height: 60px;
 }
 
-.logo img,
-.logo span {
+.logo img, .logo span {
   position: absolute;
   top: 0;
   left: 0;
@@ -91,9 +104,8 @@ h1.display-1 {
 .logo span {
   opacity: 0;
   transform: translateY(10px);
-  color:darkviolet
+  color:darkviolet;
 }
-
 
 .logo:hover img {
   opacity: 0;
@@ -104,7 +116,40 @@ h1.display-1 {
   transform: translateY(0);
 }
 
+.project-card {
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease; 
+  margin-bottom: 30px; 
+}
 
+.project-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
 
+.modal-body{
+  text-align: center;
+}
 
+#wayzyLabel {
+  text-align: center !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+#portfolioLabel {
+  text-align: center !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+.project-btn{
+color:white;
+background-color: #28a745 !important; 
+border-color: #28a745 !important;;
+}
 

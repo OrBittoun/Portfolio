@@ -102,19 +102,99 @@
       </div>
     </div>
   </section>
-
 <section id="projects" class="pt-5 mt-5">
-  <div class=" container">
-    <h2 class="text-center">Projects</h2>
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <div class="row text-center">
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal" data-bs-target="#wayzyModal">
+              Wayzy
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal" data-bs-target="#demoModal">
+              Personal Portfolio
+            </button>
+          </div>
+        </div>
+  <div class="modal fade" id="wayzyModal" tabindex="-1" aria-labelledby="wayzyLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-center" id="wayzyLabel" >Wayzy</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          My team and I developed a smart algorithm for real-time multi-order delivery optimization during a 2-day hackathon, outperforming common market solutions.<br>
+The algorithm scores orders based on urgency and proximity using live data from the Google Maps API.<br>
+Currently, we're expanding it into a full-scale product.<br>
+<img src="/photos/wayzy.png" class="project-image">
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+
+  <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="portfolioLabel">Personal Portfolio</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           My first personal project, where I built a portfolio website from scratch to showcase my work and development skills.<br>Throughout the process, I deepened my understanding of HTML and CSS, and for the first time, I explored using Bootstrap - a design framework that helped me create a clean, mobile-friendly interface.<br>This project significantly improved my grasp of web page structure, element hierarchy, and modern, accessible design.<br>
+           <a href="https://github.com/OrBittoun/Portfolio-Project.git" target="_blank"> View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </section>
 
 <section id="contact" class="pt-5 mt-5">
-  <div class=" container">
-    <h2 class="text-center">Contact</h2>
+  <div class="container">
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center">Let's get in touch!</p>
+    <div class="container py-1">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form action="https://formspree.io/f/xkgzbyar" method="POST" onsubmit="return showSuccessMessage();">
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phone" name="phone" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Your message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
