@@ -43,14 +43,12 @@ body {
 }
 
 .btn-outline-primary{
-  color: #0071e3
-;
+  color: #0071e3;
 }
 
 .btn-outline-primary:hover{
   color: white;
-  background-color:#0071e3
- ;
+  background-color:#0071e3;
 }
 
 #home, #skills{
@@ -67,7 +65,6 @@ body {
 }
 #contact{
 scroll-margin-top: 20px; 
-
 }
   
 
@@ -110,6 +107,7 @@ h1.display-1 {
   opacity: 0;
   transform: scale(0.6);
 }
+
 .logo:hover span {
   opacity: 1;
   transform: translateY(0);
@@ -134,6 +132,17 @@ h1.display-1 {
   text-align: center;
 }
 
+body.dark-mode .modal-body {
+  color: #000000;
+}
+
+body.dark-mode .modal-title {
+  color: #000000;
+}
+
+
+
+
 #wayzyLabel {
   text-align: center !important;
   width: 100% !important;
@@ -148,8 +157,8 @@ h1.display-1 {
 
 .project-btn{
 color:white;
-background-color: #28a745 !important; 
-border-color: #28a745 !important;;
+background-color:#0071e3;
+border-color: #0071e3;
 }
 
 .icon-img {
@@ -175,7 +184,6 @@ border-color: #28a745 !important;;
   visibility: visible;
 }
 
-
 .contact-icon-img {
   width: 40px;
   height: 40px;
@@ -200,15 +208,12 @@ body.dark-mode .navbar {
   background-color: #1f1f1f !important;
 }
 
-body.dark-mode a {
-  color: #90caf9;
-}
+
 
 body.dark-mode h5 {
-  color:  #1f1f1f ;
+  color:  #1f1f1f;
 }
 
-/* מצב רגיל (Light Mode) */
 .mode-toggle {
   background-color: white;
   color: black;
