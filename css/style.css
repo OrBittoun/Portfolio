@@ -58,9 +58,17 @@ body.dark-mode .myPhoto {
 }
 
 #home {
-  height: 100vh;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
   display: flex;
   align-items: center;
+  min-height: 100vh;
+}
+#home .container,
+#home .row,
+#home h1 {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
  #skills{
