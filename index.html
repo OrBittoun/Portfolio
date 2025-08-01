@@ -41,7 +41,7 @@
           <a href="#about" class="btn btn-outline-primary">Let's Dive In</a>
         </div>
         <div class="col-md-6 myPhoto">
-          <img src="photos/Me.png" class="img-fluid rounded" alt="My Photo" />
+          <img src="photos/myPicture-removebg-preview.png" class="img-fluid rounded" alt="My Photo" />
         </div>
       </div>
     </div>
@@ -161,9 +161,21 @@
         </div>
         <div class="modal-body text-center">
           <p>
-            Each order is assigned a final score based on the weighting of the two components (45% proximity, 55% urgency), with the aim of separating urgent but distant orders from close and less urgent orders.<br>The system selects the most urgent order (called the "anchor") from the latest restaurants, and examines which additional orders can be optimally combined in the route, to the maximum number set by the user.<br>The selected route undergoes final optimization, which arranges the order of deliveries so that the travel time is minimal.<br>
-            The project was built entirely in Python, using libraries such as pandas for data processing.<br>This system provides an independent, smart and flexible tool for couriers, with or without a connection, among other things, and gives a real competitive advantage in planning accurate and efficient delivery routes.
-          </p>
+    Each order is assigned a final score based on the weighting of the two components (45% proximity, 55% urgency), with the aim of separating urgent but distant orders from close and less urgent orders.
+</p>
+<p>
+    The system selects the most urgent order (called the "anchor") from the latest restaurants, and examines which additional orders can be optimally combined in the route, to the maximum number set by the user.
+</p>
+<p>
+    The selected route undergoes final optimization, which arranges the order of deliveries so that the travel time is minimal.
+</p>
+<p>
+    The project was built entirely in Python, using libraries such as pandas for data processing.
+</p>
+<p>
+    This system provides an independent, smart and flexible tool for couriers, with or without a connection, among other things, and gives a real competitive advantage in planning accurate and efficient delivery routes.
+</p>
+
           <img src="photos/wayzy.png" class="img-fluid mt-3" style="max-width: 200px;" />
         </div>
       </div>
@@ -176,11 +188,9 @@
             <img src="photos/portfolio.png" alt="Portfolio" style="width:35px;height:35px;" />
             <h5 class="card-subtitle mt-2 mb-3 text-body">Portfolio</h5>
             <p class="card-text">
-              This personal website was built from scratch to showcase my work and development skills.
-              <br>
-              I explored HTML, CSS, and Bootstrap for layout, responsiveness, and accessibility.
-              <br>
-              It was my first dive into creating a professional online presence.
+              I designed a personal portfolio website for a chef, combining playful design with smooth user experience.  
+              The site showcases the chef's background, specialties, and secret recipes with dynamic scroll effects and modals.  
+              Built as a single-page app, it captures attention with clean UI and custom animations.
             </p>
             <button type="button" class="btn btn-primary project-btn mt-3" data-bs-toggle="modal" data-bs-target="#portfolioModal">
               Wanna Peek Inside?
@@ -195,22 +205,30 @@
 
 
   <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="portfolioLabel">Portfolio</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-          <p>
-            This is my first personal portfolio website, built using HTML, CSS, and Bootstrap.
-            <br>
-            I learned about responsive design, accessibility, and creating a clean user experience.
-          </p>
-          <img src="photos/portfolio.png" class="img-fluid mt-3" style="max-width: 200px;" />
-        </div>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="portfolioLabel">Portfolio</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center" style="font-family: 'Poppins', sans-serif;">
+        <p>
+          I designed it as a single-page website that blends personality, storytelling, and frontend skills — all in one place.
+        </p>
+        <p>
+          The homepage introduces Roy with a bold hero section and a quirky tagline, supported by scroll-triggered animations and Bootstrap modals.
+          Visitors can explore his background, peek into a playful cookbook section, and discover project showcases styled like recipe cards.
+        </p>
+        <p>
+          I used HTML 5, CSS 3, and Bootstrap 5 to build a responsive layout with a fun and professional vibe.
+          The site is mobile-friendly, dynamic, and fully open to future additions like contact forms or recipe uploads.
+        </p>
+        <a href="https://github.com/OrBittoun/Roy-portfolio" target="_blank" class="btn btn-primary mt-2">View on GitHub</a>
       </div>
     </div>
+  </div>
+</div>
+
   </div>
 </section>
 
